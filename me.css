@@ -1,0 +1,73 @@
+.profile_pic{
+  width:100px;
+  height:100px;
+  min-width: 100px;
+  position: relative;
+  border-radius: 50%;
+  box-shadow:black 0px 0px 30px 3px;
+  left:25px;
+  top:25px;
+}
+.profile_pic img{
+  width: 100%;
+  border-radius: 50%;
+  box-shadow:black 0px 5px 20px 14px;
+  
+}
+
+
+.profile_pic:hover , .profile_pic:hover{
+  transform: scale(1.5);
+  cursor: pointer;
+
+}
+.profile_pic:hover , .profile_pic{transition: 0.4s ease;}
+
+.sm_link{
+    position: relative;
+    width:33px;
+    height:33px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: 0.4s ease;   
+    z-index: 1;
+}
+    
+.sm_pic{
+    width:50px;
+    height:50px;
+    cursor: pointer;
+}
+
+.twiter:hover{
+    transform: scale(1.4);
+    box-shadow: #1da1f2 1px 2px 20px 1px;
+}
+.github:hover{
+    transform: scale(1.4);
+    box-shadow: #202020 1px 2px 20px 1px;
+}
+.linkedIn:hover{
+    transform: scale(1.4);
+    box-shadow: #0077b5 1px 2px 20px 1px;
+}
+
+.twiter{
+    top:30px;
+    left:20px
+}
+
+.github{
+    top:10px;
+    left:60px
+}
+
+
+.linkedIn{
+    top:-30px;
+    left:110px;
+}
