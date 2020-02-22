@@ -1,0 +1,33 @@
+ @media screen and (min-width: 1090px) {
+
+    header{
+        flex-direction: row;
+        height: 180px;
+
+    }
+    .social_media{
+        position: relative;
+        margin: auto;
+        left:-8%;
+        top:-40px;
+        transform: scale(0.6);
+    }
+    .social_media .profile_pic{
+        position: relative;
+        margin:0 auto;
+    }
+    nav{
+        height:180px;
+        left:30px;
+      
+    }
+    nav ul {
+        align-content: center;
+        top:0px;
+    }
+    nav ul li{
+        font-size:30px
+    }
+}
+ 
+
