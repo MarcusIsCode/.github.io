@@ -23,6 +23,11 @@ const removeAddClassNav =(classs)=>{
 
     const aboutme = (doc) => {
       removeAddClassNav('aboutme');
-      text = doc.querySelector("p").innerText;
+      const text = doc.querySelector("p").innerText;
       main.innerHTML = text;     
     };
+    const cv =(doc)=>{
+    removeAddClassNav("cv");
+      const cvText = doc.querySelector('.cvdiv').innerHTML
+      main.innerHTML = cvText;
+    }

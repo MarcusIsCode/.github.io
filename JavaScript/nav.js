@@ -1,8 +1,8 @@
 
-//categoryBtn variabel to acces the header buttons
+//categoryBtn variable to access the header buttons
 //main variable to put the content.
 //categoryArray is used to remove all other classes
-//templateArray is the linkt ot templates for the pages
+//templateArray is the link to templates for the pages
 for (let i = 0; i < templateArray.length ; i++) {
   
     Fetchhtml("/htmlTemplate/" + templateArray[i]).then(document => {
@@ -14,18 +14,13 @@ for (let i = 0; i < templateArray.length ; i++) {
         }
         //CV
         if (e.target == categoryBtn[1]) {
-          console.log("ye");
+          cv(doc);
         }
         //projects
         if (e.target == categoryBtn[2]) {
           console.log("ye");
         }
-        //education
-        if (e.target == categoryBtn[3]) {
-          console.log("ye");
-        }
-
-
+      
       });
     });
  

@@ -3,24 +3,37 @@
     header{
         flex-direction: row;
         height: 180px;
+        margin-bottom: 55px;
 
+    }
+    nav{
+        width: 50%;
+         height:160px;
     }
     .social_media{
         position: relative;
-        margin: auto;
-        left:-8%;
-        top:-40px;
-        transform: scale(0.6);
+        margin:0px;
+        top:-5%;
+        width:160px;
+        height: 130px;
+        padding-left: 30px;
+        padding-top: 20px;
     }
+.profile_pic{width:100%}
+
     .social_media .profile_pic{
         position: relative;
-        margin:0 auto;
     }
-    nav{
-        height:180px;
-        left:30px;
-      
+    .sm_link{
+        width:33px;
+        height: 33px;
     }
+    .sm_pic{
+        width:50px;
+        height:50px;
+    }
+ 
+    
     nav ul {
         align-content: center;
         top:0px;

@@ -1,8 +1,44 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  color:white;
+  max-width: 95vw;
+  width:100vw;
+  height:100vh;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+ul {
+  list-style-type: none;
+}
 main{
-   
+    width:95%;
+    margin:0px auto;
     min-height:30vh;
-    padding:10px;
+    overflow: hidden;
+   padding: 20px;
 }
 .aboutme{
     font-size: 19px;
+}
+
+.cv h1{
+    font-size: 40px;
+    font-weight: lighter;
+}
+.cv h2{
+    border-bottom: 1px solid white;
+    margin-top: 1em;
+}
+.cv h1,h2,h3{
+    margin: 8px 0 ;
+    font-weight: lighter;
+    
+  
+}
+.cv li{
+    margin:5px;
+   color:#cecece
 }
