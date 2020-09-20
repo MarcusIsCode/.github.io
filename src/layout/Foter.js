@@ -1,17 +1,17 @@
 import React, { Children } from 'react';
 import styled from 'styled-components'
 
-const Nav =(props)=>{
-    
-    return(
+const Footer = (props) => {
+
+    return (
         <NavContainer>
-            {props}
+            {props.Children}
         </NavContainer>
     )
 }
 
-const NavContainer = styled.nav`
+const FooterContainer = styled.nav`
 width:100%;
 
 `
-export default Nav
+export default Footer

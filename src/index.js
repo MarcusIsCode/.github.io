@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import App from './layout/App';
 import * as serviceWorker from './serviceWorker';
-
+import GlobalStyling from"./global/GlobalStyling"
 ReactDOM.render(
   <React.StrictMode>
+    <GlobalStyling/>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
