@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './layout/App';
 import * as serviceWorker from './serviceWorker';
-import GlobalStyling from"./global/GlobalStyling"
+import GlobalStyling from"./global/GlobalStyling";
+
 ReactDOM.render(
   <React.StrictMode>
     <GlobalStyling/>

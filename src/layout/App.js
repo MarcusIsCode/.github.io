@@ -1,12 +1,13 @@
 import React from 'react';
 import styled from 'styled-components'
 import Nav from "./Nav"
+import Footer from "./Footer"
 import client from "../api/contentful";
 
 
 function App() {
  
- const [posts, setPosts] = React.useState(null);
+/*  const [posts, setPosts] = React.useState(null);
 
   React.useEffect(() => {
     client.getEntries({
@@ -16,16 +17,14 @@ function App() {
         setPosts(entries.items);
       });
   }, []);
-  
+   */
     
-    console.log(posts)
+ 
   return (
     <AppContainer>
+      <Nav/>
       
-     <Nav>
-      
-     </Nav>
-
+      <Footer/>   
     </AppContainer>
   );
 }
@@ -33,6 +32,7 @@ function App() {
 const AppContainer = styled.div`
 width:100wv;
 height:100vh;
+overflow:hidden;
 `
 
 export default App;

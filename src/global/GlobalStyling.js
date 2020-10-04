@@ -7,12 +7,10 @@ const GlobalStyle = createGlobalStyle`
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color:red;
-    font-size: 100px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+  
     
   }
-`
+`;
 
 export default GlobalStyle;

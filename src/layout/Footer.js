@@ -4,14 +4,14 @@ import styled from 'styled-components'
 const Footer = (props) => {
 
     return (
-        <NavContainer>
-            {props.Children}
-        </NavContainer>
+       <FooterContainer>
+          foooter
+       </FooterContainer>
     )
 }
 
-const FooterContainer = styled.nav`
+const FooterContainer = styled.footer`
 width:100%;
-
+height:50vh;
 `
 export default Footer
